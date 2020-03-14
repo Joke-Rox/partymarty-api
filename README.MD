@@ -2,35 +2,81 @@
 
 ## Setup for Joke
 
-open terminal app
-[get homebrew](https://brew.sh/index_de) by entering this command:
-$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
-$ brew install git
-$ brew install python3
-$ brew install poetry
+open terminal app  
+[get homebrew](https://brew.sh/index_de) by entering this command:  
+```sh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"  
+```
+then enter the following commands:  
+```sh
+brew install git  
+```
+```sh
+brew install python3 
+``
+```sh
+brew install poetry  
+```
 
-close the terminal window and open a new one
-
-$ poetry install
-$ poetry shell
-$ python3
->> from app import db
->> db.create_all()
->> quit()
-$ flask db upgrade
-$ exit
+close the terminal window and open a new one  
+navigate to the directory where you want to have the code for this repository using the cd command  
+to change the directory and the ls command to see the contents of your current directory  
+```sh
+git clone https://github.com/henleo/partymarty-api.git
+```
+```sh
+poetry install  
+```
+```sh
+poetry shell  
+```
+```sh
+python3  
+```
+```sh
+from app import db  
+```
+```sh
+db.create_all()  
+```
+```sh
+quit()  
+```
+```sh
+flask db upgrade  
+```
+```sh
+exit  
+```
 
 ## General Setup:
 
-[get python3](https://wiki.python.org/moin/BeginnersGuide/Download)
-[get poetry](https://python-poetry.org/docs/)
+[get python3](https://wiki.python.org/moin/BeginnersGuide/Download)  
+[get poetry](https://python-poetry.org/docs/)  
 
-$ poetry install
-$ poetry shell
-$ python3
->> from app import db
->> db.create_all()
->> quit()
-$ flask db upgrade
-$ exit
+```sh
+poetry install  
+```
+```sh
+poetry shell  
+```
+```sh
+python3  
+```
+```sh
+from app import db  
+```
+```sh
+db.create_all()  
+```
+```sh
+quit()  
+```
+```sh
+flask db upgrade  
+```
+```sh
+exit  
+```
+
 
