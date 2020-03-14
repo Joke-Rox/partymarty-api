@@ -13,7 +13,7 @@ brew install git
 ```
 ```sh
 brew install python3 
-``
+```
 ```sh
 brew install poetry  
 ```
