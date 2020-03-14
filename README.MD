@@ -20,7 +20,7 @@ brew install poetry
 
 close the terminal window and open a new one  
 navigate to the directory where you want to have the code for this repository using the cd command  
-to change the directory and the ls command to see the contents of your current directory  
+to change the directory and the ls command to list the contents of your current directory  
 ```sh
 git clone https://github.com/henleo/partymarty-api.git
 ```
