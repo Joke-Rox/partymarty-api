@@ -1,6 +1,6 @@
 # Flask API for the Partymarty App
 
-## Setup for Joke
+## Setup for Best boi
 
 open terminal app  
 [get homebrew](https://brew.sh/index_de) by entering this command:  
